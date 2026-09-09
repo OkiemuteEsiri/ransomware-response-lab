@@ -1,0 +1,85 @@
+[
+  {
+    "event_id": "evt-001",
+    "timestamp": "2026-09-01T10:12:00Z",
+    "event_type": "mass_file_change",
+    "asset": "ws-finance-07",
+    "actor": "user-fin-analyst",
+    "count": 1450,
+    "severity_hint": "HIGH",
+    "details": {"extension_changes": 912, "source": "synthetic-edr"}
+  },
+  {
+    "event_id": "evt-002",
+    "timestamp": "2026-09-01T10:13:10Z",
+    "event_type": "recovery_inhibition",
+    "asset": "ws-finance-07",
+    "actor": "user-fin-analyst",
+    "count": 1,
+    "severity_hint": "HIGH",
+    "details": {"source": "synthetic-process-telemetry"}
+  },
+  {
+    "event_id": "evt-003",
+    "timestamp": "2026-09-01T10:14:05Z",
+    "event_type": "security_control_disabled",
+    "asset": "ws-finance-07",
+    "actor": "user-fin-analyst",
+    "count": 1,
+    "severity_hint": "HIGH",
+    "details": {"control": "endpoint-protection", "source": "synthetic-edr"}
+  },
+  {
+    "event_id": "evt-004",
+    "timestamp": "2026-09-01T10:15:00Z",
+    "event_type": "multi_host_access",
+    "asset": "ws-finance-07",
+    "actor": "user-fin-analyst",
+    "target": "srv-files-02",
+    "count": 5,
+    "severity_hint": "MEDIUM",
+    "details": {"source": "synthetic-auth"}
+  },
+  {
+    "event_id": "evt-005",
+    "timestamp": "2026-09-01T10:15:30Z",
+    "event_type": "remote_service_execution",
+    "asset": "srv-files-02",
+    "actor": "user-fin-analyst",
+    "target": "srv-files-02",
+    "count": 1,
+    "severity_hint": "HIGH",
+    "details": {"source": "synthetic-endpoint"}
+  },
+  {
+    "event_id": "evt-006",
+    "timestamp": "2026-09-01T10:16:15Z",
+    "event_type": "backup_interference",
+    "asset": "srv-backup-01",
+    "actor": "user-fin-analyst",
+    "count": 1,
+    "severity_hint": "HIGH",
+    "details": {"source": "synthetic-backup-audit"}
+  },
+  {
+    "event_id": "evt-007",
+    "timestamp": "2026-09-01T10:17:00Z",
+    "event_type": "sensitive_share_enumeration",
+    "asset": "ws-finance-07",
+    "actor": "user-fin-analyst",
+    "target": "finance-share",
+    "count": 87,
+    "severity_hint": "MEDIUM",
+    "details": {"source": "synthetic-file-audit"}
+  },
+  {
+    "event_id": "evt-008",
+    "timestamp": "2026-09-01T09:40:00Z",
+    "event_type": "normal_login",
+    "asset": "ws-hr-03",
+    "actor": "user-hr-01",
+    "count": 1,
+    "severity_hint": "LOW",
+    "details": {"source": "synthetic-auth"}
+  }
+]
